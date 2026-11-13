@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F3A70E0369844699872CAF0 /* CueScrollApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8317918EF0C940AE839A60E9 /* CueScrollApp.swift */; };
+		A7D64490AE1A40AA9CA52920 /* Script.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0295E4F298415681D8B28D /* Script.swift */; };
+		31C9CAE3B352484DA69715B6 /* PrompterSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79DA8FD2AD9446EB2172AF7 /* PrompterSettings.swift */; };
+		4C6A2DDD6E0448E4AFA95292 /* ScriptStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A4224B9FAE4D7BB1BE004E /* ScriptStore.swift */; };
+		CAA3A3A6F3AA4B07A5709A20 /* PurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCF919280F430AAA1ADC4E /* PurchaseManager.swift */; };
+		93A18342E1084A5F9842177F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239D2C317014420BAE3FA589 /* ContentView.swift */; };
+		5152A63DF5A545E590D30E01 /* ScriptListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB63B4293D5C43189EB51B5F /* ScriptListView.swift */; };
+		3DCE8BBFC3E7453C91A54CBB /* ScriptEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAE3B994A484B9A81C9D973 /* ScriptEditorView.swift */; };
+		2D889D08AB0146919C9541C2 /* TeleprompterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668B0F9422DA4230B3B51532 /* TeleprompterView.swift */; };
+		7C93DD6F6A0E44F6A52BCEC4 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F59FBC85D09410EB3300843 /* PaywallView.swift */; };
+		5BC9405F47EA425F9857CA4E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D46E933A9FE4279B2B6FB4A /* SettingsView.swift */; };
+		52DDF9A19EDA4A82BB00B00F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A9923EABDD4713A9FEF7B8 /* OnboardingView.swift */; };
+		CA595EC0C0EB422591A223C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 296934D8FECA4B56BFA1F00A /* Assets.xcassets */; };
+		2ACEE933C0324AD2851C1F0D /* Products.storekit in Resources */ = {isa = PBXBuildFile; fileRef = DC241FC4B9A94D519FA1C183 /* Products.storekit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F12C0D08A41848F4B4B4295E /* CueScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CueScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8317918EF0C940AE839A60E9 /* CueScrollApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CueScrollApp.swift; sourceTree = "<group>"; };
+		8B0295E4F298415681D8B28D /* Script.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Script.swift; sourceTree = "<group>"; };
+		D79DA8FD2AD9446EB2172AF7 /* PrompterSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrompterSettings.swift; sourceTree = "<group>"; };
+		80A4224B9FAE4D7BB1BE004E /* ScriptStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptStore.swift; sourceTree = "<group>"; };
+		EDCCF919280F430AAA1ADC4E /* PurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseManager.swift; sourceTree = "<group>"; };
+		239D2C317014420BAE3FA589 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EB63B4293D5C43189EB51B5F /* ScriptListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptListView.swift; sourceTree = "<group>"; };
+		9AAE3B994A484B9A81C9D973 /* ScriptEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptEditorView.swift; sourceTree = "<group>"; };
+		668B0F9422DA4230B3B51532 /* TeleprompterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeleprompterView.swift; sourceTree = "<group>"; };
+		5F59FBC85D09410EB3300843 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		8D46E933A9FE4279B2B6FB4A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F1A9923EABDD4713A9FEF7B8 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		296934D8FECA4B56BFA1F00A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC241FC4B9A94D519FA1C183 /* Products.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Products.storekit; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0BAC66F11394268A74B5689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4895FB6B52334D4BA93CB19D = {
+			isa = PBXGroup;
+			children = (
+				D70CA307CF2A4BBFAD62EA7C /* CueScroll */,
+				E9A61D45CA17402684ECD729 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9A61D45CA17402684ECD729 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F12C0D08A41848F4B4B4295E /* CueScroll.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D70CA307CF2A4BBFAD62EA7C /* CueScroll */ = {
+			isa = PBXGroup;
+			children = (
+				8317918EF0C940AE839A60E9 /* CueScrollApp.swift */,
+				197CEFEB8067443EAEE4E03B /* Models */,
+				33BED1C61C3248A38A216124 /* Views */,
+				5C4783DAEF4E4F4E97BCD2C5 /* Services */,
+				9419346AE8884FDCA2075FEE /* Resources */,
+				DC241FC4B9A94D519FA1C183 /* Products.storekit */,
+			);
+			path = CueScroll;
+			sourceTree = "<group>";
+		};
+		197CEFEB8067443EAEE4E03B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8B0295E4F298415681D8B28D /* Script.swift */,
+				D79DA8FD2AD9446EB2172AF7 /* PrompterSettings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		33BED1C61C3248A38A216124 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				239D2C317014420BAE3FA589 /* ContentView.swift */,
+				EB63B4293D5C43189EB51B5F /* ScriptListView.swift */,
+				9AAE3B994A484B9A81C9D973 /* ScriptEditorView.swift */,
+				668B0F9422DA4230B3B51532 /* TeleprompterView.swift */,
+				5F59FBC85D09410EB3300843 /* PaywallView.swift */,
+				8D46E933A9FE4279B2B6FB4A /* SettingsView.swift */,
+				F1A9923EABDD4713A9FEF7B8 /* OnboardingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5C4783DAEF4E4F4E97BCD2C5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				80A4224B9FAE4D7BB1BE004E /* ScriptStore.swift */,
+				EDCCF919280F430AAA1ADC4E /* PurchaseManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9419346AE8884FDCA2075FEE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				296934D8FECA4B56BFA1F00A /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F6C32940F33436A92970F41 /* CueScroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83462339549B44349F4CF9B4 /* Build configuration list for PBXNativeTarget "CueScroll" */;
+			buildPhases = (
+				C8B289AB796A42BEBC88697F /* Sources */,
+				F0BAC66F11394268A74B5689 /* Frameworks */,
+				2DF4951110EA44129A127294 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CueScroll;
+			productName = CueScroll;
+			productReference = F12C0D08A41848F4B4B4295E /* CueScroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA4BF773D79F4675AD86907D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 38EE395EE5384B689319916B /* Build configuration list for PBXProject "CueScroll" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4895FB6B52334D4BA93CB19D;
+			productRefGroup = E9A61D45CA17402684ECD729 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F6C32940F33436A92970F41 /* CueScroll */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DF4951110EA44129A127294 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA595EC0C0EB422591A223C0 /* Assets.xcassets in Resources */,
+				2ACEE933C0324AD2851C1F0D /* Products.storekit in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8B289AB796A42BEBC88697F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F3A70E0369844699872CAF0 /* CueScrollApp.swift in Sources */,
+				A7D64490AE1A40AA9CA52920 /* Script.swift in Sources */,
+				31C9CAE3B352484DA69715B6 /* PrompterSettings.swift in Sources */,
+				4C6A2DDD6E0448E4AFA95292 /* ScriptStore.swift in Sources */,
+				CAA3A3A6F3AA4B07A5709A20 /* PurchaseManager.swift in Sources */,
+				93A18342E1084A5F9842177F /* ContentView.swift in Sources */,
+				5152A63DF5A545E590D30E01 /* ScriptListView.swift in Sources */,
+				3DCE8BBFC3E7453C91A54CBB /* ScriptEditorView.swift in Sources */,
+				2D889D08AB0146919C9541C2 /* TeleprompterView.swift in Sources */,
+				7C93DD6F6A0E44F6A52BCEC4 /* PaywallView.swift in Sources */,
+				5BC9405F47EA425F9857CA4E /* SettingsView.swift in Sources */,
+				52DDF9A19EDA4A82BB00B00F /* OnboardingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		834F4D2C98E54A5DB61665DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B2FD2DE4A5E94E5187930DE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D6CD0ADFB204B18A7A84163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5M4V37TWVA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CueScroll;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aiden609906.cuescroll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+
+			};
+			name = Debug;
+		};
+		D34679893056417B9B35F7FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5M4V37TWVA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CueScroll;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aiden609906.cuescroll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38EE395EE5384B689319916B /* Build configuration list for PBXProject "CueScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834F4D2C98E54A5DB61665DF /* Debug */,
+				B2FD2DE4A5E94E5187930DE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83462339549B44349F4CF9B4 /* Build configuration list for PBXNativeTarget "CueScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D6CD0ADFB204B18A7A84163 /* Debug */,
+				D34679893056417B9B35F7FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA4BF773D79F4675AD86907D /* Project object */;
+}
